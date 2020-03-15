@@ -17,3 +17,4 @@ install:
 script:
   - php bin/benchmark-msgpack.php
   - php bin/benchmark-json.php
+  - php bin/benchmark-json-assoc.php

@@ -1,5 +1,16 @@
 <?php
 
-echo 'Run json benchmark' . PHP_EOL;
+ini_set('memory_limit', '-1');
 
-echo 'Json exists: ' . (function_exists('json_encode') ? 'yes' : 'no') . PHP_EOL;
+require_once __DIR__ . '/../vendor/autoload.php';
+
+echo '--> Run Json benchmark' . PHP_EOL;
+
+echo '----- Integers array benchmark' . PHP_EOL;
+
+benchmarkIntegersArrayJson(1, 100000);
+benchmarkIntegersArrayJson(10, 100000);
+benchmarkIntegersArrayJson(100, 100000);
+benchmarkIntegersArrayJson(1000, 100000);
+benchmarkIntegersArrayJson(10000, 100000);
+benchmarkIntegersArrayJson(100000, 100000);
