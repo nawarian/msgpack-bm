@@ -13,4 +13,3 @@ benchmarkIntegersArrayMsgPack(10, 100000);
 benchmarkIntegersArrayMsgPack(100, 100000);
 benchmarkIntegersArrayMsgPack(1000, 100000);
 benchmarkIntegersArrayMsgPack(10000, 100000);
-benchmarkIntegersArrayMsgPack(100000, 100000);

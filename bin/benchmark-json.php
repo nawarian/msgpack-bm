@@ -13,4 +13,3 @@ benchmarkIntegersArrayJson(10, 100000);
 benchmarkIntegersArrayJson(100, 100000);
 benchmarkIntegersArrayJson(1000, 100000);
 benchmarkIntegersArrayJson(10000, 100000);
-benchmarkIntegersArrayJson(100000, 100000);
