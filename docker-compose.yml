@@ -1,23 +1,9 @@
 # docker-compose.yml
 version: '3'
 services:
-  composer:
-    image: composer:1.9.3
-    environment:
-      - COMPOSER_CACHE_DIR=/app/.cache/composer
-    volumes:
-      - .:/app
-    restart: never
   php:
     build: .docker/php
     restart: never
     volumes:
       - .:/app
     working_dir: /app
-  phpunit:
-    build: .docker/php
-    restart: never
-    volumes:
-      - .:/app
-    working_dir: /app
-    entrypoint: vendor/bin/phpunit
