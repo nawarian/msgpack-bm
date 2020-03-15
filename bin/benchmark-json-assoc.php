@@ -8,8 +8,8 @@ echo '--> Run Json Assoc benchmark' . PHP_EOL;
 
 echo '----- Integers array benchmark' . PHP_EOL;
 
-benchmarkIntegersArrayJsonAssoc(1, 100000);
-benchmarkIntegersArrayJsonAssoc(10, 100000);
-benchmarkIntegersArrayJsonAssoc(100, 100000);
-benchmarkIntegersArrayJsonAssoc(1000, 100000);
-benchmarkIntegersArrayJsonAssoc(10000, 100000);
+benchmarkIntegersArrayJsonAssoc(1, 100000, PHP_INT_MAX);
+benchmarkIntegersArrayJsonAssoc(10, 100000, PHP_INT_MAX);
+benchmarkIntegersArrayJsonAssoc(100, 100000, PHP_INT_MAX);
+benchmarkIntegersArrayJsonAssoc(1000, 100000, PHP_INT_MAX);
+benchmarkIntegersArrayJsonAssoc(10000, 100000, PHP_INT_MAX);
