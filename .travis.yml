@@ -4,15 +4,9 @@ php:
   - 7.3
   - 7.4
 
-cache:
-  directories:
-    - $HOME/.composer/cache/files
-
 before_script:
   - pecl install msgpack-2.1.0
-
-install:
-  - composer install
+  - cat /proc/cpuinfo
 
 script:
   - php bin/benchmark-msgpack.php
