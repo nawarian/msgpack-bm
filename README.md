@@ -11,12 +11,12 @@ These numbers were gathered for a benchmark published on [thePHP Website](https:
 This repository is being built by Travis CI. The current document
 available ran on the following specs:
 
-CPU: Intel(R) Xeon(R); 1 @ 2,8 GHz; Cache 33 MB
-RAM: 7,79 GB
-OS: linux/amd64 (Ubuntu 16.04.6 LTS - Xenial)
+- CPU: Intel(R) Xeon(R); 1 @ 2,8 GHz; Cache 33 MB
+- RAM: 7,79 GB
+- OS: linux/amd64 (Ubuntu 16.04.6 LTS - Xenial)
 
-PHP Version: 7.3.15 and 7.4.3
-MsgPack Version: 2.1.0
+- PHP Version: 7.3.15 and 7.4.3
+- MsgPack Version: 2.1.0
 
 # Results
 
