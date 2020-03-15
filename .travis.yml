@@ -9,6 +9,6 @@ before_script:
   - cat /proc/cpuinfo
 
 script:
-  - php bin/benchmark-msgpack.php
-  - php bin/benchmark-json.php
-  - php bin/benchmark-json-assoc.php
+  - php benchmark-msgpack.php
+  - php benchmark-json.php
+  - php benchmark-json-assoc.php
