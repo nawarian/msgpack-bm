@@ -1,0 +1,22 @@
+{
+    "name": "nawarian/msgpack",
+    "description": "A msgpack benchmark app",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Níckolas Da Silva",
+            "email": "nickolas@phpsp.org.br"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Nawarian\\MsgPack\\": "./src/"
+        }
+    }
+}
