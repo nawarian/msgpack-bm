@@ -9,6 +9,7 @@ cache:
     - $HOME/.composer/cache/files
 
 before_script:
+  - phpenv config-rm xdebug.ini
   - pecl install msgpack-2.1.0
 
 install:
